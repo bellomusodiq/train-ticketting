@@ -1,0 +1,31 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc9c9;
+  padding: 1rem;
+}
+.HeaderLeft {
+  display: flex;
+  width: 55%;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderLeft > img {
+  height: 35px;
+}
+.HeaderRight > a {
+  margin-right: 2rem;
+}
+.HeaderRight > a:last-of-type {
+  background: #0b0743;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 35px;
+}
+
+@media screen and (max-width: 500px) {
+  .Header {
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+.Header {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  background-color: #ccc9c9;
+}
+.LogoContainer {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+}
+.LogoContainer > img {
+  height: 40px;
+}
+.Menu {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Menu > div {
+  width: 30px;
+  height: 2px;
+  background-color: #0b0743;
+}
+.Backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+.SideDrawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  transition: 0.4s ease all;
+  z-index: 5;
+}
+.SideDrawer > a {
+  margin: 10px 0;
+  width: 100%;
+  padding: 5px 15px;
+}
+@media screen and (min-width: 500px) {
+  .Header,
+  .Backdrop,
+  .SideDrawer {
+    display: none;
+  }
+}

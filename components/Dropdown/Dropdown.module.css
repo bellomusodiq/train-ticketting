@@ -1,0 +1,17 @@
+.Dropdown {
+  position: relative;
+  width: 100%;
+}
+.Container {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  max-height: 200px;
+
+  overflow-y: scroll;
+}
