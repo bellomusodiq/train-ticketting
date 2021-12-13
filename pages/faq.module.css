@@ -1,0 +1,16 @@
+.Container {
+  padding: 0 10%;
+  margin-top: 100px;
+  color: #0b0743;
+}
+.Container > h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.FaqQuestion {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.FaqAnswer {
+  margin-top: 5px;
+}

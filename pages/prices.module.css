@@ -1,0 +1,16 @@
+.Prices {
+  padding: 0 10%;
+  color: #0b0743;
+  margin-top: 100px;
+}
+.Prices > h1 {
+  text-align: center;
+}
+.Table {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 500px) {
+  .Prices > h1 {
+    font-size: 1.2rem;
+  }
+}

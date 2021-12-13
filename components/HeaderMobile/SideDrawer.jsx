@@ -21,7 +21,7 @@ const SideDrawer = ({ open, onClose }) => {
           FAQ
         </Link>
         <Link onClick={onClose} href="/prices">
-          TICKET PRICE & SCHECULE
+          TICKET PRICE & SCHEDULE
         </Link>
         <Link onClick={onClose} href="/policy">
           POLICY
