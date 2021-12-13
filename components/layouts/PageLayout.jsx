@@ -9,7 +9,7 @@ import Instagram from "../../assets/icons/instagram.svg";
 import Twitter from "../../assets/icons/twitter.svg";
 import Link from "next/link";
 
-export default ({ children, pageTitle, pageDescription }) => (
+const PageLayout = ({ children, pageTitle, pageDescription }) => (
   <div>
     <Head>
       <title>{pageTitle}</title>
@@ -43,3 +43,5 @@ export default ({ children, pageTitle, pageDescription }) => (
     </footer>
   </div>
 );
+
+export default PageLayout;
