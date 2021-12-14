@@ -111,6 +111,41 @@
     margin-bottom: 50px;
   }
 }
+.ModalContainer {
+  background-color: white;
+  padding: 20px;
+  height: 70vh;
+  overflow-y: auto;
+}
+.TimeSelect {
+  display: flex;
+}
+.TimeSelectLeft {
+  flex: 1;
+}
+.TimeSelectRight {
+  width: 30%;
+  padding: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.TimeSelectRight > select {
+  width: 100%;
+  padding: 7px 10px;
+  margin-bottom: 15px;
+}
+.IterButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+.PaymentForm {
+  width: 60%;
+}
+.PaymentForm input {
+  width: 100%;
+}
 @media screen and (max-width: 500px) {
   .BookTicket {
     width: 100%;

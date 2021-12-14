@@ -1,0 +1,33 @@
+.OriginDestination {
+  display: flex;
+  /* justify-content: space-evenly; */
+  background: #fcfcfc;
+  border: 1px solid #0b0743;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 25px 0;
+}
+.OriginDestinationActive {
+  display: flex;
+  /* justify-content: space-evenly; */
+  background: #fcfcfc;
+  border: 1px solid #0b0743;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+.OriginDestinationActive:hover {
+  box-shadow: 5px 5px 8px lightgray;
+}
+.OriginDestination > div,
+.OriginDestinationActive > div {
+  width: 30%;
+}
+.Divider {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
