@@ -241,7 +241,7 @@ export default function Home() {
                   <MenuItem value={"Apr"}>Apr</MenuItem>
                   <MenuItem value={"May"}>May</MenuItem>
                   <MenuItem value={"Jun"}>Jun</MenuItem>
-                  <MenuItem value={"Jul"}>2027</MenuItem>
+                  <MenuItem value={"Jul"}>Jul</MenuItem>
                   <MenuItem value={"Aug"}>Aug</MenuItem>
                   <MenuItem value={"Sep"}>Sep</MenuItem>
                   <MenuItem value={"Oct"}>Oct</MenuItem>
@@ -304,9 +304,11 @@ export default function Home() {
                 className={styles.Dropdown}
               >
                 <option value="">From</option>
-                <option>addasdfdsfas</option>
-                <option>addasdfdsfas</option>
-                <option>addasdfdsfas</option>
+                <option>Alagbomeji</option>
+                <option>Agege</option>
+                <option>Abeokuta</option>
+                <option>Omu Adio</option>
+                <option>Moniya</option>
               </select>
               <input required className={styles.DatePicker} type="date" />
             </div>
@@ -319,9 +321,11 @@ export default function Home() {
                 value={to}
               >
                 <option value="">To</option>
-                <option>addasdfdsfas</option>
-                <option>addasdfdsfas</option>
-                <option>addasdfdsfas</option>
+                <option>Alagbomeji</option>
+                <option>Agege</option>
+                <option>Abeokuta</option>
+                <option>Omu Adio</option>
+                <option>Moniya</option>
               </select>
               <select
                 onChange={(e) => setClasses(e.target.value)}
